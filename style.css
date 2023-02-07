@@ -1,0 +1,74 @@
+#container {
+    box-sizing: border-box;
+    height: calc(100vH);
+    font-family: Roboto;
+    background-color: rgb(230 196 184);
+    padding-top: calc((100vh - 510px) / 2);
+}
+
+.matrix_wrapper {
+    width: 600px;
+    height: 450px;
+    color: #292424;
+    background-color: #ffffff;
+    border-radius: 1px;
+    margin: 0 auto;
+    padding: 30px;;
+}
+
+.matrix_header {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.matrix_content {
+    width: 340px;
+    margin: 0 auto 50px;
+}
+
+.matrix_block, 
+.matrix_number,
+.matrix_block_border {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #000000;
+    margin: 1px 0 1px 0;
+}
+
+.matrix_block_border {
+    border: 1px solid transparent;
+}
+
+.matrix_block_row, 
+.matrix_block_column {
+    background-color: #f9fbe7;
+    font-weight: 700;
+}
+
+.diagonal {
+    background-color: #e8f5e9;
+    font-weight: 700;
+}
+
+.matrix_number:nth-of-type(1) {
+    background-color: aquamarine;
+}
+
+button {
+    display: block;
+    width: 220px;
+    background-color: #fff9c4;
+    font-size: 16px;
+    font-weight: 700;
+    outline: none;
+    border: 0px;
+    margin: 0 auto;
+    padding: 10px 20px 10px 20px;
+}
